@@ -1,0 +1,29 @@
+.home-container-3 h1{
+    font-weight: 400;
+}
+
+.user-List-container{
+    padding: 30px 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px,1fr));
+    gap: 30px;
+}
+
+.userList-Profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: black;
+}
+
+.userList-Profile h3{
+    padding: 10px 13px;
+    background-color: #d3d3d3;
+    border-radius: 50%;
+}
+
+.userList-Profile h5{
+    margin: 0px 10px;
+}

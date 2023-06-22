@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 150vh;
+    width: 97vw;
+    padding: 0vh 2vw 3vh 0vw;
+    justify-content: space-between;
+}

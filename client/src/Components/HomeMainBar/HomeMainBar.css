@@ -1,0 +1,31 @@
+.container2{
+    flex: 57%;
+    display: flex;
+    flex-direction: column;
+    padding: 7vh 2vw 0vh 2vw;
+}
+
+.main-bar-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-bar-header h1{
+    font-weight: 400;
+}
+
+.ask-btn{
+    padding: 10px 15px;
+    border-radius: 4px;
+    background-color: #009dff;
+    color: white;
+    border: none;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.ask-btn:hover{
+    background-color: #0086d8;
+}
